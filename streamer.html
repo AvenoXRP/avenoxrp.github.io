@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Streamer - AvenoX RP</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="status-pill"><span class="dot green"></span><span id="players-count">--/--</span> Giocatori</div>
+      <div class="status-pill"><span class="dot blurple"></span><span id="discord-count">--</span> su Discord</div>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><img src="assets/logo.png" alt="AvenoX RP" class="logo-img"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="regolamento.html">Regolamento</a></li>
+        <li><a href="streamer.html" class="active">Streamer</a></li>
+      </ul>
+      <button class="burger" id="burger">&#9776;</button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <h1>Streamer</h1>
+    <p>Segui i creator della nostra community. Qui sotto trovi chi è live in questo momento e chi invece è offline.</p>
+  </div>
+
+  <section class="section">
+    <h3 class="streamer-subtitle">In Live</h3>
+    <div id="streamers-live" class="streamers-grid"></div>
+
+    <h3 class="streamer-subtitle">Offline</h3>
+    <div id="streamers-offline" class="streamers-grid"></div>
+  </section>
+
+  <footer class="endbar">
+    <div class="endbar-left">
+      <img src="assets/logo.png" alt="AvenoX RP" class="endbar-logo" onerror="this.style.display='none'">
+    </div>
+    <div class="endbar-center">
+      <a href="#" id="link-discord" target="_blank" class="social-btn discord">Discord</a>
+      <a href="#" id="link-tiktok" target="_blank" class="social-btn tiktok">TikTok</a>
+      <a href="#" id="link-youtube" target="_blank" class="social-btn youtube">YouTube</a>
+    </div>
+    <div class="endbar-right">
+      <a href="#" id="server-status-link" target="_blank" class="server-status">
+        <span class="dot green"></span><span>Server Status</span>
+      </a>
+    </div>
+  </footer>
+  <div class="copyright">&copy; <span id="year"></span> AvenoX RP. Tutti i diritti riservati.</div>
+
+  <script src="js/config.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/streamer.js"></script>
+</body>
+</html>
