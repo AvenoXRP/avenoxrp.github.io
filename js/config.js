@@ -427,6 +427,114 @@ const CONFIG = {
         "Nel caso in cui non ci siano medici in servizio e la rianimazione venga effettuata da un Admin, l'azione non potrà in alcun modo essere ricordata dal giocatore.",
       ]
     },
+    {
+      id: "medici",
+      title: "Regolamento Medici",
+      points: [
+        "I medici appartengono a una fazione che collabora con le forze dell'ordine: durante il turno di servizio possono contattare la Polizia in presenza di reati manifesti o situazioni di pericolo, oltre a raccogliere informazioni utili durante il soccorso e segnalarle qualora configurino un reato.",
+        "Fuori dal servizio, il medico è libero di compiere qualsiasi azione, lecita o meno, ma se sorpreso sarà trattato come un normale cittadino; eventuali provvedimenti disciplinari restano a discrezione del primario. Non è ammesso effettuare una chiamata EMS con il solo scopo di attirare e rapire il medico.<br /> • Le informazioni apprese durante il servizio non possono essere condivise se non con le Forze dell'Ordine tramite regolare mandato.",
+        "Il rapimento di un medico in servizio all'interno della struttura ospedaliera è consentito solo in presenza di motivazioni RP particolarmente solide.",
+        "Dopo essere stato rianimato, il ferito deve obbligatoriamente interpretare uno stato di shock e debolezza (ad esempio non potrà correre); sarà compito del medico effettuare gli accertamenti del caso, sul posto se lievi o in ospedale se gravi.",
+        "Se un medico ritiene necessario il ricovero di un paziente, questo non potrà rifiutarsi e dovrà recarsi obbligatoriamente in ospedale.",
+        "In caso di cadute da grandi altezze o incidenti gravi, il medico può richiedere il permadeath del giocatore coinvolto.",
+        "Nelle azioni che coinvolgono esclusivamente criminali, il medico ha l'obbligo di soccorrere tutti i feriti presenti; la chiamata alle autorità potrà avvenire solo al termine di tutte le rianimazioni, per dare modo ai criminali di allontanarsi.",
+      ]
+    },
+    {
+      id: "fdo",
+      title: "Regolamento Forze dell'Ordine",
+      points: [
+        "La polizia non può sparare per prima se non in risposta a un colpo esploso da terzi (mortale o meno), fatta eccezione per i colpi alle ruote; questa restrizione decade in presenza di un reale pericolo di vita per sé, per un collega o per un cittadino.",
+        "Non è consentito entrare in polizia con l'intento di essere corrotti; per interpretare un agente corrotto è obbligatorio aprire preventivamente un ticket Ninjo. Violare questa regola comporta il permaban.",
+        "Gli agenti possono richiedere un documento in qualsiasi momento; chi ne è sprovvisto sarà condotto in centrale per l'identificazione tramite impronte digitali, già raccolte in dogana all'ingresso in città.",
+        "Le perquisizioni personali sono ammesse solo con un valido motivo RP nel rispetto dell'Art. C.P.P. 1.14 (es. segnalazioni di spaccio, fughe, zone rosse, mancato rispetto dell'alt, soggetti armati, indizi gravi).<br /> • Dopo una sparatoria la polizia deve perquisire tutti i coinvolti e i veicoli, sequestrando armi e oggetti illegali. <br /> • Le perquisizioni domiciliari richiedono un regolare mandato rilasciato da un giudice o un facente funzione su richiesta di un procuratore. <br /> • In centrale sono ammesse ulteriori perquisizioni cautelative a tutela della sicurezza di agenti e presenti.",
+        "Al termine di un arresto con più di 5 soggetti coinvolti è necessario organizzare un trasporto detenuti verso il penitenziario.",
+        "Un ex agente sorpreso a compiere azioni illegali entro 15 giorni dal licenziamento o dall'allontanamento rischia un processo con richiesta di ergastolo; la regola si applica solo a chi ha ricoperto almeno il ruolo di agente.<br /> • È inoltre possibile richiedere il wipe del personaggio dopo l'allontanamento, per iniziare una nuova storia.",
+        "È vietato intercettare la frequenza radio di un soggetto durante un'azione in corso; tale informazione può essere ottenuta esclusivamente in sede di interrogatorio.",
+        "Ogni agente può utilizzare al massimo una striscia chiodata per azione.",
+        "Nei controlli su veicoli rubati a NPC o ad altri giocatori, la polizia non può più perquisire né arrestare i soggetti colti in flagranza.",
+        "In presenza di uno o più agenti rapiti, le forze dell'ordine possono far intervenire quattro agenti aggiuntivi per ogni collega rapito.",
+        "La regola del non aprire il fuoco per primi non vale quando un'azione si conclude in un edificio senza vie di fuga, multipiano o con un unico accesso, con soggetti armati, mascherati e chiaramente intenzionati a sparare o posizionati per farlo: in questo unico caso la polizia può sparare per prima.",
+      ]
+    },
+    {
+      id: "safezone",
+      title: "Regolamento Safe Zone",
+      points: [
+        "Sono Safe Zone gli interni e un raggio di 100 metri attorno a ospedali, negozi di abbigliamento, tatuaggi, maschere, parrucchieri e chiese, dove è vietato compiere azioni illegali.<br /> • Nelle chiese e nei loro pressi sono inoltre vietate violenza, insulti razziali o religiosi, trolling e armi impugnate.",
+        "Le stazioni delle forze dell'ordine sono semi-safe zone: possono essere assaltate solo con un valido motivo RP e previa approvazione tramite ticket.",
+        "L'assalto alla centrale può coinvolgere fino a 12 criminali contro un numero illimitato di agenti (Polizia, Marshall, Sceriffi); è permesso l'uso di tutte le armi e i caschi disponibili in game.<br /> • Se catturati, i criminali saranno processati per terrorismo e non potranno attaccare il convoglio fino al processo.",
+        "Qualsiasi comportamento di nofear RP durante l'assalto comporta il permadeath del giocatore.",
+      ]
+    },
+    {
+      id: "illegali",
+      title: "Regolamento Azioni Illegali",
+      points: [
+        "Un'azione illegale può coinvolgere al massimo 8 criminali e 12 poliziotti. Le azioni a scopo di puro loot sono severamente vietate: non si può derubare qualcuno senza una valida motivazione RP.",
+        "L'azione deve restare entro un raggio di 300 metri: chi si allontana dalla zona è considerato in fuga e non potrà più prendervi parte in alcun modo.",
+        "Nelle azioni freeroam vengono conteggiati tutti i membri della fazione presenti nel raggio d'azione, anche se non partecipano attivamente; non vengono invece conteggiati gli ostaggi.",
+        "Non è consentito costringere una persona a prelevare contanti al bancomat o a effettuare bonifici.",
+        "È vietato usare una chiamata ai servizi (Polizia, Medici, Meccanici, Avvocati, Concessionari, ecc.) per organizzare un'azione illegale premeditata, come un rapimento.",
+        "La collaborazione tra fazioni criminali avversarie (\"teste\") è assolutamente vietata.",
+        "Se vince la polizia, non è possibile avviare una nuova azione fino alla partenza del convoglio verso la centrale o il carcere; nel frattempo l'azione è considerata freeroam (pistola, senza casco).<br /> • I criminali arrestati restano esterni all'azione e non possono usare comandi per uscire dai veicoli, pena l'annullamento dell'assalto; potranno tentare la fuga solo a scena conclusa.",
+        "L'assalto al convoglio richiede una motivazione seria (es. il capo fazione rischia il processo): motivazioni futili comportano l'annullamento.<br /> • Non si possono recuperare tutti gli oggetti sequestrati, e l'assalto può essere tentato una sola volta, con massimo 6 criminali e 12 poliziotti, solo dopo che il convoglio ha percorso almeno 500 metri. Una volta ingaggiato, il convoglio deve fermarsi e mettere in sicurezza la zona.",
+        "Se un membro della controparte finisce a terra, non è possibile chiamare i medici per proseguire o avviare una nuova azione con gli stessi soggetti, né usare il medikit per procedere a un rapimento.",
+        "Durante un rapimento, se la controparte ingaggia uno scontro a fuoco e viene sconfitta, è possibile rianimare uno dei suoi membri per proseguire con il rapimento; questo non vale nei confronti delle forze dell'ordine.",
+        "Casco e animazioni non sono ammessi durante le azioni freeroam.",
+        "Nei conflitti tra fazioni criminali, chi apre il fuoco per primo è la fazione in attacco ed è obbligata a proseguire; la fazione in difesa può scegliere se rispondere o restare passiva. Entrambe possono disingaggiare in qualsiasi momento.<br /> • Solo la polizia e gli enti statali/federali devono sempre mettere in sicurezza la zona.",
+        "Chi si reca nelle zone del ghetto (Groove, Barrio, ecc.) con l'intento di attaccare le gang locali rischia il permadeath, poiché tali aree sono equiparate alle case fazione delle mafie; anche il trolling in queste zone è punito severamente.",
+        "Se in un'azione tra due o più fazioni una risulta in sovrannumero, perde automaticamente e deve cedere il proprio loot alla fazione vincente, a discrezione dello staff, per evitare l'abuso del sovrannumero come scusa per annullare l'azione.",
+        "Un ostaggio preso durante una rapina non può essere derubato: se perquisito dalla polizia, gli potranno essere contestati solo eventuali soldi non tracciabili, mai altri oggetti dell'inventario.",
+        "Nel rapimento del Procuratore Federale o del Capo della Polizia, le forze dell'ordine possono intervenire senza limiti di numero.",
+        "Il tablet della polizia non può essere utilizzato per finalità di rapimento, né alcun tablet trovato nell'inventario altrui può essere usato per estorcere informazioni: va sempre interpretato come un normale tablet.",
+        "È vietato camperare nei pressi di punti critici come inizio missioni o punti vendita per avviare azioni criminali.",
+        "Durante le azioni freeroam è vietato usare l'elicottero per atterrare su tetti non raggiungibili a piedi.",
+        "Tetti, terrazzi, balconi e altri spazi sopraelevati sono vietati nelle azioni freeroam e in ogni tipo di scontro, ad eccezione del Kortz Center e dell'Osservatorio; multipiani e montagnette non sono considerati tetti, essendo più accessibili.",
+        "È severamente vietato girare per la mappa alla ricerca di punti illegali, droga, veicoli, persone o rapiti senza un'informazione certa; con una zona confermata e documentata da clip, la ricerca è ammessa solo nelle aree limitrofe entro 500 metri.",
+        "È possibile trascinare i corpi dei propri alleati (mai quelli della fazione avversaria) per nasconderli o disimpegnarsi insieme a loro; una volta usciti dal raggio d'azione non si può rientrare.<br /> • La polizia può spostare i corpi di criminali o altri agenti solo se si trovano in mezzo alla strada, portandoli sul marciapiede.",
+        "Gli scontri tra fazioni criminali sono 8 contro 8; la polizia può intervenire come terza fazione con un massimo di 12 membri, salvo che l'azione non sia già dichiarata conclusa.",
+        "Il loot segue queste regole: la polizia non può mai essere derubata; tra criminali il loot è ammesso solo a fine azione, salvo la necessità di un item specifico per proseguire; è possibile prendere solo l'arma usata nell'azione e le relative munizioni; in caso di disingaggio si possono lootare solo i propri membri prima di allontanarsi.",
+        "Respawn e ospedale sono accessibili solo dopo essere stati lootati dalla fazione vincitrice; se vince la polizia, i criminali non possono respawnare e devono subire l'arresto.",
+        "Sparare dai veicoli è vietato, salvo durante un drive-by di una gang o in casi di nofear estremo, dove il bersaglio ignora in modo palesemente irrealistico una minaccia armata o un pericolo di morte imminente.",
+      ]
+    },
+    {
+      id: "assaltocasa",
+      title: "Regolamento Assalto Casa Fazione",
+      points: [
+        "Ogni casa fazione ha un'area di 100 metri considerata territorio della fazione: rondare ripetutamente questa zona equivale a un ingaggio e quindi a un assalto, a cui possono rispondere tutti i membri della fazione rondata.",
+        "Se l'ingaggio inizia fuori da quest'area e si sposta al suo interno, l'azione prosegue come una normale freeroam 8 contro 8; i membri della fazione visti all'interno della propria casa possono essere atterrati ma non derubati: il loot riguarda solo gli 8 membri della squadra attaccante.",
+        "Per rondare l'area di una casa fazione servono validi motivi RP, da convalidare tramite ticket; vista la possibile presenza di molti giocatori all'interno, va sempre interpretato correttamente il fear.",
+      ]
+    },
+    {
+      id: "pizzo",
+      title: "Regolamento Pizzo",
+      points: [
+        "La richiesta di pizzo può essere effettuata una sola volta a settimana, per una cifra simbolica non superiore a 30.000.",
+        "La richiesta non deve interferire con l'RP dell'attività (chiusure, occupazioni prolungate, ecc.).",
+        "La fazione che ottiene un accordo di pizzo deve poi proteggere l'attività da ulteriori richieste o attacchi: l'obiettivo non può essere la sola estorsione, altrimenti l'azione viene considerata a scopo di loot.",
+        "I criminali coinvolti nella richiesta di pizzo devono rispettare i numeri previsti dal regolamento Freeroam; la violazione comporta un richiamo fazione.",
+      ]
+    },
+    {
+      id: "zonemalfamate",
+      title: "Regolamento Zone Malfamate",
+      points: [
+        "Le zone malfamate sono indicate sulla mappa ufficiale e comprendono ghetti, Sandy Shores, Paleto e altre aree controllate da gruppi criminali.",
+        "Entrando in una zona malfamata, il giocatore accetta implicitamente il rischio di furti o rapine da parte degli occupanti del territorio, con la possibilità di perdere fino al 50% degli oggetti trasportati; tale percentuale massima va sempre rispettata.",
+        "Gli oggetti sottratti devono essere coerenti con il contesto RP e non finalizzati a danneggiare l'esperienza altrui.<br /> • Nel rispetto di questi limiti lo staff non interviene su lamentele; oltre il 50% o in presenza di comportamenti non RP, scattano le sanzioni.",
+      ]
+    },
+    {
+      id: "terzefazioni",
+      title: "Regolamento Partecipazione Terze Fazioni",
+      points: [
+        "Se una terza o ulteriore fazione interviene volontariamente in un'azione non consensuale (scontro, sparatoria, rapimento), il loot ottenuto viene diviso tra le due fazioni originariamente coinvolte, mentre lo staff trattiene 8 pistole aggiuntive come sanzione, che vengono confiscate e rimosse dal gioco.",
+        "La fazione che interviene volontariamente in questo modo può incorrere in provvedimenti disciplinari, dal warn fazione fino a sospensioni o ban dei membri coinvolti, a discrezione dello staff criminalità.",
+      ]
+    },
   ],
 
   // ============================================================
