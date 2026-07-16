@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Inventario - AvenoX RP</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/inventario.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="status-pill"><span class="dot green"></span><span id="players-count">--/--</span> Giocatori</div>
+      <div class="status-pill"><span class="dot blurple"></span><span id="discord-count">--</span> su Discord</div>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><img src="assets/logoscritto.png" alt="AvenoX RP" class="logo-img"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="regolamento.html">Regolamento</a></li>
+        <li><a href="streamer.html">Streamer</a></li>
+      </ul>
+      <button class="burger" id="burger">&#9776;</button>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <h1>Inventario</h1>
+    <p>Elenco completo di items e armi con relativo ID e immagine, generato da items.lua e weapons.lua.</p>
+  </div>
+
+  <div class="inv-toolbar">
+    <input type="text" id="inv-search" class="inv-search" placeholder="Cerca per ID o nome...">
+    <div class="inv-tabs">
+      <button class="inv-tab active" data-tab="all">Tutti</button>
+      <button class="inv-tab" data-tab="items">Items</button>
+      <button class="inv-tab" data-tab="weapons">Armi</button>
+    </div>
+    <div class="inv-counts" id="inv-counts"></div>
+  </div>
+
+  <h2 class="inv-group-title" id="inv-items-title">Items</h2>
+  <div id="inv-items-grid" class="inv-grid"></div>
+
+  <h2 class="inv-group-title" id="inv-weapons-title">Armi</h2>
+  <div id="inv-weapons-grid" class="inv-grid"></div>
+
+  <footer class="endbar">
+    <div class="endbar-left">
+      <img src="assets/logoscritto.png" alt="AvenoX RP" class="endbar-logo" onerror="this.style.display='none'">
+    </div>
+    <div class="endbar-center">
+      <a href="#" id="link-discord" target="_blank" class="social-btn discord">Discord</a>
+      <a href="#" id="link-tiktok" target="_blank" class="social-btn tiktok">TikTok</a>
+      <a href="#" id="link-youtube" target="_blank" class="social-btn youtube">YouTube</a>
+    </div>
+    <div class="endbar-right">
+      <a href="#" id="server-status-link" target="_blank" class="server-status">
+        <span class="dot green"></span><span>Server Status</span>
+      </a>
+    </div>
+  </footer>
+  <div class="copyright">&copy; <span id="year"></span> AvenoX RP. Tutti i diritti riservati.</div>
+
+  <script src="js/config.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/inventario-data.js"></script>
+  <script src="js/inventario.js"></script>
+</body>
+</html>
