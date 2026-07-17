@@ -34,7 +34,7 @@ const CONFIG = {
       id: "locali",
       title: "Locali",
       icon: "🍸",
-      cover: "assets/shop/vanillau.jpg",
+      cover: "assets/shop/locali/vanillau.jpg",
       products: [
         {
           name: "Vanilla Unicorn", desc: "Club notturno con spettacoli di intrattenimento esclusivi, dotato di motel annesso con stanze a tema per un’esperienza unica.", price: "€ 200", img: "assets/shop/locali/vanillau.jpg",
