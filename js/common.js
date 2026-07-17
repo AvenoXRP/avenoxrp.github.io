@@ -36,7 +36,7 @@ async function fetchPlayerCounts() {
       if (response.ok) {
         const data = await response.json();
         const online = data.Data.clients;      // Giocatori online
-        const max = data.Data.maxclients;      // Slot massimi
+        const max = data.Data.sv_maxclients;   // Slot massimi
         playersEl.textContent = `${online}/${max}`;
       } else {
         playersEl.textContent = "Offline";
