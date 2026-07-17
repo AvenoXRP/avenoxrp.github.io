@@ -297,7 +297,7 @@ const CONFIG = {
       id: "case",
       title: "Case",
       icon: "🏠",
-      cover: "assets/shop/villa.jpg",
+      cover: "assets/shop/case/vigneto.png",
       products: [
         {
           name: "Vigneto 409", desc: "Vigneto.", price: "€ 900.000", img: "assets/shop/case/vigneto.png",
@@ -345,7 +345,7 @@ const CONFIG = {
       id: "pacchetti",
       title: "Pacchetti",
       icon: "🎁",
-      cover: "assets/shop/pacchetto-vip.jpg",
+      cover: "assets/shop/pack/packstarter.png",
       products: [
         {
           name: "Pacchetto Starter", desc: "Tutto ciò che serve per iniziare.", price: "€ 100.000", img: "assets/shop/pack/packstarter.png",
