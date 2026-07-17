@@ -37,31 +37,31 @@ const CONFIG = {
       cover: "assets/shop/vanillau.jpg",
       products: [
         {
-          name: "Vanilla Unicorn", desc: "Club notturno con spettacoli di intrattenimento esclusivi, dotato di motel annesso con stanze a tema per un’esperienza unica.", price: "€ 200", img: "assets/shop/vanillau.jpg",
+          name: "Vanilla Unicorn", desc: "Club notturno con spettacoli di intrattenimento esclusivi, dotato di motel annesso con stanze a tema per un’esperienza unica.", price: "€ 200", img: "assets/shop/locali/vanillau.jpg",
           details: ["Civico: centro città"]
         },
         {
-          name: "Tequi-la-la", desc: "Bar rock di Vinewood, famoso per musica dal vivo, drink forti e notti selvagge.", price: "€ 150", img: "assets/shop/tequilala.jpg",
+          name: "Tequi-la-la", desc: "Bar rock di Vinewood, famoso per musica dal vivo, drink forti e notti selvagge.", price: "€ 150", img: "assets/shop/locali/tequilala.jpg",
           details: ["Civico: centro città"]
         },
         {
-          name: "Luxxx Club", desc: "Il locale più esclusivo di Los Santos: luci, musica, cibo raffinato e le donne più affascinanti della città.", price: "€ 150", img: "assets/shop/luxxxclub.jpg",
+          name: "Luxxx Club", desc: "Il locale più esclusivo di Los Santos: luci, musica, cibo raffinato e le donne più affascinanti della città.", price: "€ 150", img: "assets/shop/locali/luxxxclub.jpg",
           details: ["Civico: centro città"]
         },
         {
-          name: "Split Sides", desc: "Comedy club popolare, perfetto per una serata tra risate e drink.", price: "€ 150", img: "assets/shop/splitsides.jpg",
+          name: "Split Sides", desc: "Comedy club popolare, perfetto per una serata tra risate e drink.", price: "€ 150", img: "assets/shop/locali/splitsides.jpg",
           details: ["Civico: centro città"]
         },
         {
-          name: "Asgard Beach", desc: "Una vivace discoteca e stabilimento balneare situato sulla fittizia Del Perro Beach.", price: "€ 150", img: "assets/shop/asgardbeach.jpg",
+          name: "Asgard Beach", desc: "Una vivace discoteca e stabilimento balneare situato sulla fittizia Del Perro Beach.", price: "€ 150", img: "assets/shop/locali/asgardbeach.jpg",
           details: ["Civico: centro città"]
         },
         {
-          name: "LD Organics", desc: "Coffee shop dove è possibile acquistare e consumare prodotti a base di cannabis legale, in un ambiente sicuro e rilassante.", price: "€ 150", img: "assets/shop/ldorganics.jpg",
+          name: "LD Organics", desc: "Coffee shop dove è possibile acquistare e consumare prodotti a base di cannabis legale, in un ambiente sicuro e rilassante.", price: "€ 150", img: "assets/shop/locali/ldorganics.jpg",
           details: ["Civico: centro città"]
         },
         {
-          name: "Malibù Club", desc: "Discoteca esclusiva, frequentata da VIP e nottambuli.", price: "€ 150", img: "assets/shop/malibuclub.jpg",
+          name: "Malibù Club", desc: "Discoteca esclusiva, frequentata da VIP e nottambuli.", price: "€ 150", img: "assets/shop/locali/malibuclub.jpg",
           details: ["Civico: centro città"]
         }
       ]
@@ -348,12 +348,8 @@ const CONFIG = {
       cover: "assets/shop/pacchetto-vip.jpg",
       products: [
         {
-          name: "Pacchetto Starter", desc: "Tutto ciò che serve per iniziare.", price: "€ 100.000", img: "assets/shop/pacchetto-starter.jpg",
-          details: ["Kit di base per RP", "Bonus economico iniziale", "Oggetti utili starter"]
-        },
-        {
-          name: "Pacchetto VIP", desc: "Vantaggi esclusivi e contenuti extra.", price: "€ 400.000", img: "assets/shop/pacchetto-vip.jpg",
-          details: ["Accesso ad aree VIP", "Contenuti esclusivi", "Supporto prioritario staff"]
+          name: "Pacchetto Starter", desc: "Tutto ciò che serve per iniziare.", price: "€ 100.000", img: "assets/shop/pack/packstarter.png",
+          details: ["✨ STARTER DRIVE — €50 | 🚗 2 Auto da 30 | 💵 + $100.000 in contanti", "🌊 OCEAN VISTA PACK — €90 | 🏎️ 1 Auto da 70 | 🏖️ Appartamento Ocean Vista vista mare | 💵 + $300.000 in contanti", "💎 PREMIUM ESCAPE — €120 | 🏎️ 2 Auto da 70 | 💰 + $500.000 in contanti"]
         }
       ]
     }
