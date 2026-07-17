@@ -23,16 +23,49 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchPlayerCounts();
 });
 
-/* ---------- PLAYER / DISCORD COUNTS ----------
-   NOTA: per mostrare i numeri reali di giocatori connessi al
-   server FiveM/cfx e di membri Discord servono chiamate API
-   che richiedono un backend (per CORS e chiavi private).
-   Sostituisci il contenuto di questa funzione con una vera
-   fetch() verso il tuo server/backend quando disponibile.
-------------------------------------------------- */
-function fetchPlayerCounts() {
+/* ---------- PLAYER / DISCORD COUNTS ---------- */
+async function fetchPlayerCounts() {
   const playersEl = document.getElementById("players-count");
   const discordEl = document.getElementById("discord-count");
-  if (playersEl) playersEl.textContent = "--/--";
-  if (discordEl) discordEl.textContent = "--";
+
+  // --- FIVEM ---
+  if (playersEl) {
+    try {
+      // Sostituisci "3ygeopz" con l'ID del tuo server se diverso
+      const response = await fetch("https://frontend.cfx-services.net/api/servers/single/3ygeopz");
+      if (response.ok) {
+        const data = await response.json();
+        const online = data.Data.clients;      // Giocatori online
+        const max = data.Data.maxclients;      // Slot massimi
+        playersEl.textContent = `${online}/${max}`;
+      } else {
+        playersEl.textContent = "Offline";
+      }
+    } catch (error) {
+      console.error("Errore fetch FiveM:", error);
+      playersEl.textContent = "Errore";
+    }
+  }
+
+  // --- DISCORD ---
+  if (discordEl) {
+    try {
+      // Sostituisci con il TUO ID Server Discord (assicurati di aver abilitato il Widget!)
+      const discordServerId = "1225205454850887810"; 
+      const response = await fetch(`https://discord.com/api/guilds/${discordServerId}/widget.json`);
+      if (response.ok) {
+        const data = await response.json();
+        // presence_count indica i membri online sul server
+        discordEl.textContent = data.presence_count; 
+      } else {
+        discordEl.textContent = "Offline";
+      }
+    } catch (error) {
+      console.error("Errore fetch Discord:", error);
+      discordEl.textContent = "Errore";
+    }
+  }
 }
+
+// Avvia la funzione al caricamento della pagina
+document.addEventListener("DOMContentLoaded", fetchPlayerCounts);

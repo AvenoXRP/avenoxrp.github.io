@@ -10,7 +10,7 @@ const CONFIG = {
 
   // Link social per la endbar
   social: {
-    discord: "https://discord.gg/EVQhH7caQV",
+    discord: "https://discord.gg/avenoxrp",
     tiktok: "https://www.tiktok.com/@tuoprofilo",
     youtube: "https://www.youtube.com/@tuocanale"
   },
