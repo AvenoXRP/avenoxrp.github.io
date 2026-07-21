@@ -441,7 +441,7 @@ const CONFIG = {
       title: "Regolamento Forze dell'Ordine",
       points: [
         "La polizia non può sparare per prima se non in risposta a un colpo esploso da terzi (mortale o meno), fatta eccezione per i colpi alle ruote; questa restrizione decade in presenza di un reale pericolo di vita per sé, per un collega o per un cittadino.",
-        "Non è consentito entrare in polizia con l'intento di essere corrotti; per interpretare un agente corrotto è obbligatorio aprire preventivamente un ticket Ninjo. Violare questa regola comporta il permaban.",
+        "Non è consentito entrare in polizia con l'intento di essere corrotti; per interpretare un agente corrotto è obbligatorio aprire preventivamente un ticket. Violare questa regola comporta il permaban.",
         "Gli agenti possono richiedere un documento in qualsiasi momento; chi ne è sprovvisto sarà condotto in centrale per l'identificazione tramite impronte digitali, già raccolte in dogana all'ingresso in città.",
         "Le perquisizioni personali sono ammesse solo con un valido motivo RP nel rispetto dell'Art. C.P.P. 1.14 (es. segnalazioni di spaccio, fughe, zone rosse, mancato rispetto dell'alt, soggetti armati, indizi gravi).<br /> • Dopo una sparatoria la polizia deve perquisire tutti i coinvolti e i veicoli, sequestrando armi e oggetti illegali. <br /> • Le perquisizioni domiciliari richiedono un regolare mandato rilasciato da un giudice o un facente funzione su richiesta di un procuratore. <br /> • In centrale sono ammesse ulteriori perquisizioni cautelative a tutela della sicurezza di agenti e presenti.",
         "Al termine di un arresto con più di 5 soggetti coinvolti è necessario organizzare un trasporto detenuti verso il penitenziario.",
