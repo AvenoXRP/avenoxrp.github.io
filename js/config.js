@@ -34,34 +34,58 @@ const CONFIG = {
       id: "locali",
       title: "Locali",
       icon: "🍸",
-      cover: "assets/shop/locali/vanillau.jpg",
+      cover: "assets/shop/immagini/vanillau.png",
       products: [
         {
-          name: "Vanilla Unicorn", desc: "Club notturno con spettacoli di intrattenimento esclusivi, dotato di motel annesso con stanze a tema per un’esperienza unica.", price: "€ 200", img: "assets/shop/locali/vanillau.jpg",
+          name: "Vanilla Unicorn", desc: "Club notturno con spettacoli di intrattenimento esclusivi, dotato di motel annesso con stanze a tema per un’esperienza unica.", price: "€ 200", img: "assets/shop/immagini/vanillau.png",
           details: ["Civico: centro città"]
         },
         {
-          name: "Tequi-la-la", desc: "Bar rock di Vinewood, famoso per musica dal vivo, drink forti e notti selvagge.", price: "€ 150", img: "assets/shop/locali/tequilala.jpg",
+          name: "Tequi-la-la", desc: "Bar rock di Vinewood, famoso per musica dal vivo, drink forti e notti selvagge.", price: "€ 150", img: "assets/shop/immagini/tequilala.png",
           details: ["Civico: centro città"]
         },
         {
-          name: "Luxxx Club", desc: "Il locale più esclusivo di Los Santos: luci, musica, cibo raffinato e le donne più affascinanti della città.", price: "€ 150", img: "assets/shop/locali/luxxxclub.jpg",
+          name: "Luxxx Club", desc: "Il locale più esclusivo di Los Santos: luci, musica, cibo raffinato e le donne più affascinanti della città.", price: "€ 150", img: "assets/shop/immagini/luxxxclub.png",
           details: ["Civico: centro città"]
         },
         {
-          name: "Split Sides", desc: "Comedy club popolare, perfetto per una serata tra risate e drink.", price: "€ 150", img: "assets/shop/locali/splitsides.jpg",
+          name: "Split Sides", desc: "Comedy club popolare, perfetto per una serata tra risate e drink.", price: "€ 150", img: "assets/shop/immagini/splitsides.png",
           details: ["Civico: centro città"]
         },
         {
-          name: "Asgard Beach", desc: "Una vivace discoteca e stabilimento balneare situato sulla fittizia Del Perro Beach.", price: "€ 150", img: "assets/shop/locali/asgardbeach.jpg",
+          name: "Asgard Beach", desc: "Una vivace discoteca e stabilimento balneare situato sulla fittizia Del Perro Beach.", price: "€ 150", img: "assets/shop/immagini/asgard.png",
           details: ["Civico: centro città"]
         },
         {
-          name: "LD Organics", desc: "Coffee shop dove è possibile acquistare e consumare prodotti a base di cannabis legale, in un ambiente sicuro e rilassante.", price: "€ 150", img: "assets/shop/locali/ldorganics.jpg",
+          name: "LD Organics", desc: "Coffee shop dove è possibile acquistare e consumare prodotti a base di cannabis legale, in un ambiente sicuro e rilassante.", price: "€ 150", img: "assets/shop/immagini/ldorganics.png",
           details: ["Civico: centro città"]
         },
         {
-          name: "Malibù Club", desc: "Discoteca esclusiva, frequentata da VIP e nottambuli.", price: "€ 150", img: "assets/shop/locali/malibuclub.jpg",
+          name: "Malibù Club", desc: "Discoteca esclusiva, frequentata da VIP e nottambuli.", price: "€ 150", img: "assets/shop/immagini/malibuclub.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Bean Machine", desc: "La caffetteria preferita di Los Santos, ideale per un espresso al volo o una pausa con stile.", price: "€ 150", img: "assets/shop/immagini/beanmachine.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Cranberry Bar", desc: "La caffetteria preferita di Los Santos, ideale per un espresso al volo o una pausa con stile.", price: "€ 150", img: "assets/shop/immagini/cranberry.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "The Town", desc: "Ristorante di lusso.", price: "€ 200", img: "assets/shop/immagini/thetown.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Pizzeria", desc: "Pizzathis è la migliore catena di pizzerie di Los Santos, fanno un ottima pizza soprattutto quella con ananas e prosciutto.", price: "€ 150", img: "assets/shop/immagini/pizzathis.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Lucky Plucker", desc: "Pollo fritto a volontà in un fast food old school, amato da tutti.", price: "€ 150", img: "assets/shop/immagini/luckyp1.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Al Dente", desc: "Ristorante italiano raffinato, noto per la sua pasta fresca e l'atmosfera elegante.", price: "€ 200", img: "assets/shop/immagini/aldente.png",
           details: ["Civico: centro città"]
         }
       ]
@@ -70,15 +94,51 @@ const CONFIG = {
       id: "officine",
       title: "Officine",
       icon: "🔧",
-      cover: "assets/shop/officina-custom.jpg",
+      cover: "assets/shop/immagini/lscustom.png",
       products: [
         {
-          name: "Officina Meccanica Base", desc: "Officina per riparazioni e tuning veicoli.", price: "€ 200.000", img: "assets/shop/officina-base.jpg",
-          details: ["2 ponti sollevatori", "Kit riparazione base", "Magazzino ricambi piccolo"]
+          name: "Los Santos Custom", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 350.000", img: "assets/shop/immagini/lscustom.png",
+          details: ["Civico: centro città"]
         },
         {
-          name: "Officina Custom Garage", desc: "Officina avanzata con verniciatura.", price: "€ 350.000", img: "assets/shop/officina-custom.jpg",
-          details: ["4 ponti sollevatori", "Cabina di verniciatura", "Magazzino ricambi grande", "Area esposizione veicoli"]
+          name: "Bennys", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 350.000", img: "assets/shop/immagini/bennys.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Redline Performance", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 300.000", img: "assets/shop/immagini/redlinep.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Tuner Shop", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 300.000", img: "assets/shop/immagini/tunershop.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Underground Garage", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 250.000", img: "assets/shop/immagini/undergroundg.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Officina 059", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 200.000", img: "assets/shop/immagini/offi059.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Officina 686", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 200.000", img: "assets/shop/immagini/offi686.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Officina 260", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 200.000", img: "assets/shop/immagini/offi260.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Officina 795", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 200.000", img: "assets/shop/immagini/offi795.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Officina 555", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 200.000", img: "assets/shop/immagini/offi555.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Officina 437", desc: "Centro di riferimento per riparazioni, modifiche avanzate e verniciature professionali.", price: "€ 200.000", img: "assets/shop/immagini/offi437.png",
+          details: ["Civico: centro città"]
         }
       ]
     },
@@ -86,15 +146,59 @@ const CONFIG = {
       id: "strutture",
       title: "Strutture",
       icon: "🏭",
-      cover: "assets/shop/magazzino.jpg",
+      cover: "assets/shop/immagini/casino.png",
       products: [
         {
-          name: "Magazzino Industriale", desc: "Ampio spazio per stoccaggio merci.", price: "€ 300.000", img: "assets/shop/magazzino.jpg",
-          details: ["Superficie: 500 mq", "Accesso mezzi pesanti", "Sistema di sicurezza incluso"]
+          name: "Casinò", desc: "Posto ideale per scommettere, divertirsi e vivere il lusso. Offre giochi d'azzardo, eventi esclusivi e un'atmosfera di alta classe.", price: "€ 1.000.000", img: "assets/shop/immagini/casino.png",
+          details: ["Civico: centro città"]
         },
         {
-          name: "Deposito Privato", desc: "Struttura sicura per attività legali e non.", price: "€ 220.000", img: "assets/shop/deposito.jpg",
-          details: ["Superficie: 250 mq", "Accesso riservato", "Zona isolata dalla città"]
+          name: "Centrale di Polizia", desc: "Sede principale del Dipartimento di Polizia cittadino, responsabile dell'applicazione delle leggi all'interno dei confini urbani di Los Santos.", price: "€ 500.000", img: "assets/shop/immagini/polizia.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Los Santos Medical Center", desc: "Ospedale principale della città, pronto a fornire cure mediche d'urgenza e assistenza sanitaria.", price: "€ 500.000", img: "assets/shop/immagini/ospedale.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Tribunale", desc: "Sede ufficiale del governo cittadino, punto di riferimento per documenti, licenze e servizi civili.", price: "€ 400.000", img: "assets/shop/immagini/tribunale.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Premium Deluxe Motorsport", desc: "Concessionaria automobilistica, specializzata nella vendita di veicoli, pronta a soddisfare ogni esigenza dei clienti.", price: "€ 300.000", img: "assets/shop/immagini/concessionario.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Mosley Auto", desc: "Concessionaria specializzata in auto usate, qualità garantita e prezzi vantaggiosi.", price: "€ 250.000", img: "assets/shop/immagini/mosleyauto.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Exotic Motorcycle Dealership", desc: "Concessionaria motociclistica, specializzata nella vendita di moto e scooter, pronta a soddisfare ogni esigenza dei propri clienti con passione e professionalità.", price: "€ 250.000", img: "assets/shop/immagini/concessionario4.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "DockTease", desc: "Concessionaria nautica specializzata nella vendita di imbarcazioni, ideale per chi desidera eleganza e prestazioni in mare.", price: "€ 300.000", img: "assets/shop/immagini/concessionario3.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Perseus", desc: "Concessionaria aeronautica, specializzata nella vendita di aerei e elicotteri per voli esclusivi e ad alte prestazioni.", price: "€ 400.000", img: "assets/shop/immagini/concessionario2.png",
+          details: ["Civico: centro città"]
+        },
+        {
+          name: "Armeria - Centro Città", desc: "Il posto dove puoi acquistare tutto il necessario per equipaggiarti: armi da fuoco, munizioni e accessori.", price: "€ 200.000", img: "assets/shop/immagini/armeria.png",
+          details: ["Zona: centro città"]
+        },
+        {
+          name: "Armeria - Sandy Shores", desc: "Il posto dove puoi acquistare tutto il necessario per equipaggiarti: armi da fuoco, munizioni e accessori.", price: "€ 200.000", img: "assets/shop/immagini/armeria2.png",
+          details: ["Zona: Sandy Shores"]
+        },
+        {
+          name: "Armeria - Paleto Bay", desc: "Il posto dove puoi acquistare tutto il necessario per equipaggiarti: armi da fuoco, munizioni e accessori.", price: "€ 200.000", img: "assets/shop/immagini/armeria3.png",
+          details: ["Zona: Paleto Bay"]
+        },
+        {
+          name: "Agenzia Immobiliare", desc: "Agenzia Immobiliare: Compravendi, affitta o valuta proprietà con professionisti.", price: "€ 150.000", img: "assets/shop/immagini/immobiliare.png",
+          details: ["Civico: centro città"]
         }
       ]
     },
